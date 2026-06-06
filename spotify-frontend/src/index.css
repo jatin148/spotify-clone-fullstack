@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --color-spotify-green: #1DB954;
+    --color-spotify-black: #121212;
+    --color-spotify-dark: #181818;
+    --color-spotify-card: #282828;
+    --color-spotify-light: #B3B3B3;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #121212; }
+::-webkit-scrollbar-thumb { background: #535353; border-radius: 3px; }
